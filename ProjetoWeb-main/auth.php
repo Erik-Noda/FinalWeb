@@ -2,7 +2,7 @@
 session_start();
 
 include 'backend\bd.php';
-
+$_SESSION['usuario'] = $_POST['usuario'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
